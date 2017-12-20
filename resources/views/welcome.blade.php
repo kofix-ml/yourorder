@@ -65,9 +65,9 @@
             <div class="col-2"><span class="btn">PRICING</span></div>
             <div class="col-2"><span class="btn">DEMO</span></div> --}}
             <div class="col-3"><button class="btn" data-toggle="modal" data-target="#login" style="background-color: white;color: #34495E!important">SIGNUP?LO5IN</button></div>
-            <div class="col-1"><a class="btn" style="background-color: white;color: #34495E!important;border-radius: 25px;padding:8px 12px;"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-            <div class="col-1"><button class="btn" style="background-color: white;color: #34495E!important;border-radius: 25px;padding:8px 12px;"><i class="fa fa-linkedin" aria-hidden="true"></i></button></div>
-            <div class="col-1"><button class="btn" style="background-color: white;color: #34495E!important;border-radius: 25px;padding:8px 12px;"><i class="fa fa-facebook" aria-hidden="true"></i></button></div>
+            <div class="col-1"><a href="https://twitter.com/kofixtech" class="btn" style="background-color: white;color: #34495E!important;border-radius: 25px;padding:8px 12px;"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+            <div class="col-1"><a href="https://www.linkedin.com/company/kofix-technologies-resources/" class="btn" style="background-color: white;color: #34495E!important;border-radius: 25px;padding:8px 12px;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+            {{-- <div class="col-1"><button class="btn" style="background-color: white;color: #34495E!important;border-radius: 25px;padding:8px 12px;"><i class="fa fa-facebook" aria-hidden="true"></i></button></div> --}}
         </div>
     </div>
     <!-- SCRIPTS -->
