@@ -94,16 +94,16 @@ $employees = DB::table('staff')
                             </ul>
                         </div>
                     </li>
-                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i> About<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i> Billing<i class="fa fa-angle-down rotate-icon"></i></a>
                         <div class="collapsible-body">
                             <ul>
                                 <li><a href="{{ route('subscription.index') }}" class="waves-effect">Subscription</a>
                                 </li>
-                                <li><a href="#" class="waves-effect">Monthly meetings</a>
-                                </li>
+                                {{-- <li><a href="#" class="waves-effect">Monthly meetings</a>
+                                </li> --}}
                             </ul>
                         </div>
-                    </li>
+                    </li>{{-- 
                     <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope-o"></i> Contact me<i class="fa fa-angle-down rotate-icon"></i></a>
                         <div class="collapsible-body">
                             <ul>
@@ -113,7 +113,7 @@ $employees = DB::table('staff')
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
             <!--/. Side navigation links -->
@@ -131,12 +131,12 @@ $employees = DB::table('staff')
                 <p>Your Order</p>
             </div>
             <ul class="nav navbar-nav nav-flex-icons ml-auto">
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block">Support</span></a>
-                </li>
+                </li> --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-user"></i> <span class="clearfix d-none d-sm-inline-block">@if (Auth::guest()) Login/Register @else {{ Auth::user()->name }} @endif
