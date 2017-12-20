@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Styles -->
-    <link href="{{ asset('MDB/css/compiled.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('MDB/css/compiled.min.css') }}" rel="stylesheet">
     <style>
         .table-wrapper-2 {
     display: block;
@@ -216,7 +216,7 @@ $employees = DB::table('staff')
         @yield('content')
     </div>
     <!-- Scripts -->
-    <script src="{{ asset('MDB/js/compiled.min.js') }}"></script>
+    <script src="{{ secure_asset('MDB/js/compiled.min.js') }}"></script>
     <script>
         $(".button-collapse").sideNav();
         $('.mdb-select').material_select();
